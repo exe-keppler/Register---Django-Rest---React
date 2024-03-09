@@ -1,0 +1,53 @@
+# Entorno virtual
+env/
+venv/
+*.pyc
+
+# Archivos de entorno
+.env
+
+# Base de datos
+db.sqlite3
+
+# Archivos de bytecode de Python
+__pycache__/
+*.py[cod]
+
+# Paquetes de Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# Archivos de configuración de Django
+*.log
+local_settings.py
+
+# Carpeta de node_modules para proyectos de React/npm
+node_modules/
+
+# Archivos de paquetes y lock de npm
+package-lock.json
+yarn.lock
+
+# Carpeta de build de React (si construyes tu aplicación React dentro del proyecto Django)
+build/
+
+# Archivos de IDE y editores de texto
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Otros archivos y carpetas que podrías querer ignorar
+*.bak
+*.tmp
+tmp/
